@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+
+ body {
+    font-family: 'Lato', sans-serif;
+ }
+
+
 .cabeçalho {
     background-color: #B88484;
     color: #ffffff;
@@ -12,12 +18,52 @@
     padding: 24px 0;
 }
 
+
 .cabeçalho-imagem{
  width: 20%;
 }
 
-.cabeçalho-item{
+
+.cabeçalho-item {
     display: inline-block;
     margin: 0 16px;
-    font-size: 18px;
+    font-size: 15px;
+}
+ 
+.texto-img {
+    width: 25%;
+}
+
+
+.Texto {
+    background-image: linear-gradient(#B88484,#fdd6d6);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
+
+.Texto-div {
+    width: 35%;
+}
+
+
+.Texto-titulo {
+    padding: 5% 0;
+}
+
+
+.imagem.jpg{
+    width: 120px;
+}
+
+
+.roupas-icones {
+   width: 24px;
+}
+
+
+.roupas-div {
+   
 }
